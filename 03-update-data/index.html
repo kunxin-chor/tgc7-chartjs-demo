@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- each graph will needs its own canvas element -->
+    <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+        <canvas id="bar-chart"></canvas>
+        <button id="change-btn">Change</button>
+        <input type="text" id="label"/><button id="add-btn">Add</button>
+    </div>
+
+    <!-- chartjs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="script.js"></script>
+</body>
+</html>
